@@ -4,19 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c79f97de-06a8-4deb-b8b6-b79fef5a9353" name="Changes" comment="question 4 completed">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/questions/MergeAndSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/searchAndSort/Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/searchAndSort/Sort.java" afterDir="false" />
+    <list default="true" id="c79f97de-06a8-4deb-b8b6-b79fef5a9353" name="Changes" comment="question 6 completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/questions/Fibonacci.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/questions/Challenge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/questions/Coordinates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Duplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/questions/Duplicates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/questions/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MatrixProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/questions/MatrixProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MedianOfMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/questions/MedianOfMerge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CoordinatesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/questions/CoordinatesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MedianOfMergeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/questions/MedianOfMergeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +53,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeAndSort">
+  <component name="RunManager" selected="Application.Fibonacci">
     <configuration name="Duplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.questions.Duplicates" />
       <module name="GS-prep" />
@@ -77,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatrixProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.questions.MatrixProduct" />
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.questions.Fibonacci" />
       <module name="GS-prep" />
       <extension name="coverage">
         <pattern>
@@ -131,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fibonacci" />
         <item itemvalue="Application.MergeAndSort" />
         <item itemvalue="Application.Sort" />
         <item itemvalue="Application.Search" />
         <item itemvalue="Application.Duplicates" />
-        <item itemvalue="Application.MatrixProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676933888159</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="question 6 completed">
+      <created>1677008276148</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1677008276148</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +192,7 @@
     <MESSAGE value="completed question 2" />
     <MESSAGE value="question 3 but have not taken into account negative numbers" />
     <MESSAGE value="question 4 completed" />
-    <option name="LAST_COMMIT_MESSAGE" value="question 4 completed" />
+    <MESSAGE value="question 6 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="question 6 completed" />
   </component>
 </project>
