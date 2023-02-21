@@ -4,12 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c79f97de-06a8-4deb-b8b6-b79fef5a9353" name="Changes" comment="question 3 but have not taken into account negative numbers">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Challenge.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Duplicates.java" afterDir="false" />
+    <list default="true" id="c79f97de-06a8-4deb-b8b6-b79fef5a9353" name="Changes" comment="question 4 completed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/questions/MergeAndSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/searchAndSort/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/searchAndSort/Sort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MatrixProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MatrixProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Challenge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/questions/Challenge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/questions/Coordinates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Duplicates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/questions/Duplicates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/questions/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MatrixProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/questions/MatrixProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MedianOfMerge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/questions/MedianOfMerge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/CoordinatesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/questions/CoordinatesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/MedianOfMergeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/questions/MedianOfMergeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,26 +63,13 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Duplicates">
-    <configuration name="Challenge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Challenge" />
-      <module name="GS-prep" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MergeAndSort">
     <configuration name="Duplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Duplicates" />
+      <option name="MAIN_CLASS_NAME" value="org.questions.Duplicates" />
       <module name="GS-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,11 +78,11 @@
       </method>
     </configuration>
     <configuration name="MatrixProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MatrixProduct" />
+      <option name="MAIN_CLASS_NAME" value="org.questions.MatrixProduct" />
       <module name="GS-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,45 +90,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedianOfMergeTest.median" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MergeAndSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.questions.MergeAndSort" />
       <module name="GS-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.questions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.MedianOfMergeTest" />
-      <option name="METHOD_NAME" value="median" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MedianOfMergeTest.sort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searchAndSort.Search" />
       <module name="GS-prep" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="searchAndSort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.MedianOfMergeTest" />
-      <option name="METHOD_NAME" value="sort" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="searchAndSort.Sort" />
+      <module name="GS-prep" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="searchAndSort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeAndSort" />
+        <item itemvalue="Application.Sort" />
+        <item itemvalue="Application.Search" />
         <item itemvalue="Application.Duplicates" />
         <item itemvalue="Application.MatrixProduct" />
-        <item itemvalue="Application.Challenge" />
-        <item itemvalue="JUnit.MedianOfMergeTest.sort" />
-        <item itemvalue="JUnit.MedianOfMergeTest.median" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676929928507</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="question 4 completed">
+      <created>1676933888159</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676933888159</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,6 +194,7 @@
     <MESSAGE value="completed question 1" />
     <MESSAGE value="completed question 2" />
     <MESSAGE value="question 3 but have not taken into account negative numbers" />
-    <option name="LAST_COMMIT_MESSAGE" value="question 3 but have not taken into account negative numbers" />
+    <MESSAGE value="question 4 completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="question 4 completed" />
   </component>
 </project>

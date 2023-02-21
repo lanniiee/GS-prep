@@ -1,4 +1,4 @@
-package org.example;
+package org.questions;
 
 import org.junit.jupiter.api.Test;
 
